@@ -5,7 +5,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vitejs/plugin-svelte": "latest",
+    "@sveltejs/vite-plugin-svelte": "latest",
     "vite": "latest",
     "svelte": "latest"
   },
