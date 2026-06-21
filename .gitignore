@@ -1,11 +1,26 @@
+# Python
 __pycache__/
 *.pyc
-.env
 .venv/
 venv/
+.env
 
-data/raw/*
-data/processed/*
+# Streamlit
+.streamlit/secrets.toml
 
-.ipynb_checkpoints/
+# Data
+streamlit-app/data/raw/*
+streamlit-app/data/processed/*
+!streamlit-app/data/raw/job_postings_sample.csv
+!streamlit-app/data/processed/.gitkeep
+
+# Node / Svelte
+svelte-site/node_modules/
+svelte-site/.svelte-kit/
+svelte-site/dist/
+svelte-site/.env
+
+# OS / IDE
 .DS_Store
+.vscode/
+.ipynb_checkpoints/
